@@ -32,12 +32,12 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 
 
 ### How to contribute:
-1.	Open http://labelearth.colorado.edu then follow the instruction to log in (create an account if needs). We suggest using a computer with a large screen for this task.
+1.	Open [LabelEarth](http://labelearth.colorado.edu) then follow the instruction to log in (create an account if needs). We suggest using a computer with a large screen for this task.
 2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. User also can hide the composted imagery, then check the ESRI World imagery in Panel (c). After checking all online maps, use can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it but it’s ok if you leave it as it is.
 3.	In panel (d), you can choose the possibility from Yes, high, Medium, low, and No for the original bounding box. You don’t need to assign possibilities to the newly added polygons/rectangles because these are already considered as RTSs by you. We will consider further validation of them in the future but not in this round.
 4.	You can input comments in the note (Panel d) if you have some thoughts or observe something interesting for this bounding box or location. After all set, click “Submit and Next”, the system will save your input to the server on the campus at University of Colorado Boulder and show you next bounding box for validation.
 5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
-6.	Close the window if you want to stop, login to http://labelearth.colorado.edu again if you want to validate more. You can validate a few or many as you want.
+6.	Close the window if you want to stop, login to [LabelEarth](http://labelearth.colorado.edu) again if you want to validate more. You can validate a few or many as you want.
 
 
 
