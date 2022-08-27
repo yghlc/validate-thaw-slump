@@ -1,9 +1,36 @@
-## Validate deep-learing-based mapping results of retrogressive thaw slumps 
+## Validate deep-learning-based mapping results of retrogressive thaw slumps 
 
-We use a web-based system to validate mapping results output by a deep leanring algorithm.  
+This is a crowd-sourcing system for validating/identifying retrogressive thaw slumps from ArcticDEM-derived data and online maps (Google satellite imagery and ESRI World imagery).  The system is under the phase 1 of development and test and may have some bugs.  We would like to invite some people to test it and provide some feedbacks and do not advertise it broadly at this moment.
 
-More details are coming!
+Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causing concerns because it changes local environment and affect northern communities, ecosystems, and global ecological processes such as carbon feedback. Due to climate warming, the number and affected areas of RTSs have increased significantly in past decades as documented by many local studies but their spatial distribution and evolution are still unknown in the entire permafrost region, which impedes the understanding and prediction of permafrost thawing. RTSs are in remote and harsh environments and are small as well as similar to their surroundings on remote sensing imagery, posting a challenge to map them either in the field or from satellite imagery.
 
+![Fig. 1 Some ground photos of retrogressive thaw slumps, as shown in Huang et al. 2022.](figs/canada_slump.png "Ground photos of RTSs")
+
+We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can service as a basis for future mapping and monitoring. We have obtained a preliminary mapping result as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration. Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
+
+
+![Fig. 2 Maping results](figs/thawslump_ArcticDEM_overview_2examples_trim.jpg)
+
+
+We developed a crowd-sourcing system (the following figure) and would like to volunteer to validate the results.
+![Fig. 3 web-system](figs/web_system_fig_trim.jpg)
+
+
+Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels). During validation, each bounding box will be validated up to three times by three different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528(3176x3) inputs from volunteer.
+
+
+How to contribute:
+1.	Open http://labelearth.colorado.edu then follow the instruction to log in (create an account if needs). We suggest using a computer with a large screen for this task.
+2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. User also can hide the composted imagery, then check the ESRI World imagery in Panel (c). After checking all online maps, use can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it but it’s ok if you leave it as it is.
+3.	In panel (d), you can choose the possibility from Yes, high, Medium, low, and No for the original bounding box. You don’t need to assign possibilities to the newly added polygons/rectangles because these are already considered as RTSs by you. We will consider further validation of them in the future but not in this round.
+4.	You can input comments in the note (Panel d) if you have some thoughts or observe something interesting for this bounding box or location. After all set, click “Submit and Next”, the system will save your input to the server on the campus at University of Colorado Boulder and show you next bounding box for validation.
+5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
+6.	Close the window if you want to stop, login to http://labelearth.colorado.edu again if you want to validate more. You can validate a few or many as you want.
+
+
+Phase 1, developing and testing, aim to be completed by mid-September.
+
+Contact for any comments, suggestions, and questions: Lingcao Huang (lingcao.huang@colorado.edu)
 
 
 ### Support or Contact
