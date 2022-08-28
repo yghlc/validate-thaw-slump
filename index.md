@@ -45,7 +45,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 
 ### Support or Contact
 This system in under the Phase 1 of development, please report any bugs.
-Contact for any comments, suggestions, and questions: Lingcao Huang (lingcao.huang@colorado.edu)!
+Contact for any comments, suggestions, and questions: Lingcao Huang (lingcao.huang@colorado.edu).
 
 
 ### Q&A
