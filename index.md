@@ -20,7 +20,7 @@ We utilized an open-access, high-resolution (2 m), and multi-temporal digital su
 </figure>
 
 ### Crowed-sourcing system
-We developed a crowd-sourcing system (the following figure) and would like to volunteer to validate the results.
+We developed a crowd-sourcing system (the following figure) and would like to invite volunteers to validate the results.
 
 <figure>
 <img src="figs/web_system_fig_trim.jpg" alt="Trulli" style="width:100%">
@@ -28,7 +28,7 @@ We developed a crowd-sourcing system (the following figure) and would like to vo
 </figure>
 
 
-Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels). During validation, each bounding box will be validated up to three times by three different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528(3176x3) inputs from volunteer.
+Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels). During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528(3176x3) inputs from volunteers.
 
 
 ### How to contribute:
