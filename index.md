@@ -49,11 +49,11 @@ Contact for any comments, suggestions, and questions: Lingcao Huang (lingcao.hua
 
 
 ### Q&A
-- could you share your data?
+- Could you share your data?
 
 _We are happy to share the data we derived from ArcitDEM. The intermediate data include polygons of elevation reduction, lines of narrow-steep slopes, composited imagery have a size of over 6 TB and can be used for other research. We are looking for a public domain to host this dataset. After this round of validation, we also happy to share the bounding boxes of retregrossive thaw slumps._
 
-- What the technical details of the algorithm behind the data processing?
+- What's the technical details of the algorithm for the data processing?
 
 
 _We are writing a technical paper to summary the technical details, stay tune._ 
