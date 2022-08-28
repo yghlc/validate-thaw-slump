@@ -56,7 +56,7 @@ _We are happy to share the data we derived from ArcitDEM. The intermediate data 
 - What's the technical details of the algorithm for the data processing?
 
 
-_We are writing a technical paper to summary the technical details, stay tune._ 
+_We are writing a technical paper to summarize the technical details, stay tune._ 
 
 
 
