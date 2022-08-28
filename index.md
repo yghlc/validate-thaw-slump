@@ -39,8 +39,14 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
 6.	Close the window if you want to stop, login to [LabelEarth](http://labelearth.colorado.edu) again if you want to validate more. You can validate a few or many as you want.
 
-
+### Some notes
+1. The three panels (a, b, and c) show imagery in the same geographic locatoin, but they are independent and don't zoom in/out simultaneously. 
+2. The "previous" button only goes back to bounding boxes and the corresponding imagery you have contributed to. "Next and Submit" only goes to the bounding boxes and imagery that haven't been validated to 3 times by different users and you didn't contribute to. If you view a bounding box but don't submit your results, it will be hidden for you in next 12 hours and may been validated by other users. 
 
 ### Support or Contact
 This system in under the Phase 1 of development, please report any bugs.
 Contact for any comments, suggestions, and questions: Lingcao Huang (lingcao.huang@colorado.edu)!
+
+
+### Q&A
+To be added. 
