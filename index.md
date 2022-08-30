@@ -11,7 +11,7 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 </figure>
 
 ### Mapping results derived from ArcticDEM using deep learning
-We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can service as a basis for future mapping and monitoring. We have obtained a preliminary mapping result as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. **Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration.** Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
+We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can service as a basis for future mapping and monitoring. We have obtained a preliminary mapping result after processing over 200 TB of ArcticDEM as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. **Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration.** Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
 
 
 <figure>
