@@ -42,7 +42,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 **A [video](https://youtu.be/PSTQdhGIDpg) (no sound) showing how to use the crowed-sourcing system is on Youtube.** 
 
 ### Some notes
-1. The three panels (a, b, and c) show imagery in the same geographic locatoin, but they are independent and don't zoom in/out simultaneously. 
+1. The three panels (a, b, and c) show imagery in the same geographic locatoin, but they are independent and don't zoom in/out simultaneously. The shortcut for zoom/in in pannel (a) is differnt from others and is designed by the online map. 
 2. The "previous" button only goes back to bounding boxes and the corresponding imagery you have contributed to. "Submit and Next" only goes to the bounding boxes and imagery that haven't been validated to 3 times by different users and you didn't contribute to. If you view a bounding box but don't submit your results, it will be hidden for you in the next 12 hours and may been validated by other users. 
 
 ### Contact
