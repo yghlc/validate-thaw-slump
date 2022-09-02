@@ -19,7 +19,7 @@ We utilized an open-access, high-resolution (2 m), and multi-temporal digital su
 <figcaption align = "center"><b>Fig. 2 Preliminary mapping results (red rectangles) of retrogressive thaw slumps in the pan-Arctic. The background is composited imagery showing hill-shade and abrupt slope changes with a spatial resolution of two meters. A and B are two zoom-in examples. The lines in different colors represent abrupt slope changes in different years.</b></figcaption>
 </figure>
 
-### Crowed-sourcing system
+### Crowd-sourcing system
 We developed a crowd-sourcing system (the following figure) and would like to invite volunteers to validate the results.
 
 <figure>
