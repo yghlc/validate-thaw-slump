@@ -31,7 +31,7 @@ We developed a crowd-sourcing system (the following figure) and would like to in
 Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels) to a server. During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528 (3176x3) inputs from all users.
 
 
-### How to contribute
+### How to contribute (A [demo](https://youtu.be/9YQpNbjgVeQ) on Youtube)
 1.	Open [LabelEarth](http://labelearth.colorado.edu) then follow the instruction to log in. We suggest using a computer with a large screen for this task.
 2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. In Panel (c), users can also hide the composted imagery by clicking the checkbox, then check the ESRI World imagery in the background. After checking all online maps, users can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it but it’s ok if you leave it as it is.
 3.	In panel (d), you can choose the possibility from Yes, High, Medium, Low, and No for the original bounding box. If you are sure that it is an RTS or not, then choose Yes or No, respectively. If there is a ambiguity, you can choose a possibility from High, Medium, and Low. You don’t need to assign possibilities to the newly added polygons/rectangles because these are already considered as RTSs by you. We will consider further validation of them in the future but not in this round. 
@@ -39,7 +39,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
 6.	Close the window if you want to stop, login to [LabelEarth](http://labelearth.colorado.edu) again if you want to validate more. You can validate a few or many as you want.
 
-**A [video](https://youtu.be/PSTQdhGIDpg) (no sound) showing how to use the crowed-sourcing system is on Youtube.** 
+<!-- **A [video](https://youtu.be/9YQpNbjgVeQ) (no sound) showing how to use the crowed-sourcing system is on Youtube.**  -->
 
 ### Some notes
 1. The three panels (a, b, and c) show imagery in the same geographic locatoin, but they are independent and don't zoom in/out simultaneously. The shortcut for zoom/in in pannel (a) is differnt from others and is designed by the online map. The background imagery in panel (c) is similar to the imagery in panel (b), but for some locations, panel (c) may have multi-temporal imagery.
