@@ -7,7 +7,7 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 
 <figure>
 <img src="figs/canada_slump.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 1 Some ground photos of retrogressive thaw slumps, as shown in <a href=https://www.mdpi.com/2072-4292/14/12/2747>  Huang et al. 2022</a></b></figcaption>
+<figcaption align = "center">Fig. 1 Some ground photos of retrogressive thaw slumps, as shown in <a href=https://www.mdpi.com/2072-4292/14/12/2747>  Huang et al. 2022</a></figcaption>
 </figure>
 
 ### Mapping results derived from ArcticDEM using deep learning
