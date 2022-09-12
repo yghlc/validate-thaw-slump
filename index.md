@@ -49,7 +49,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 ### Some notes
 1. The three panels (a, b, and c) show imagery in the same geographic locatoin, but they are independent and don't zoom in/out simultaneously. The shortcut for zoom in/out pannel (a) is differnt from others and is designed by the online map. The background imagery in panel (c) is similar to the imagery in panel (b), but for some locations, panel (c) may have multi-temporal imagery.
 2. The "previous" button only goes back to bounding boxes and the corresponding imagery you have contributed to. "Submit and Next" only goes to the bounding boxes and imagery that haven't been validated 3 times by different users and you didn't contribute to. If you view a bounding box but don't submit your results, it will be hidden for you in the next 12 hours and may been validated by other users. 
-3. The acquistion time of source imagery for composited imagery, google satellite imagery, and ESRI World imagery may be differnt, leading to different boundaries of retrogressive thaw slumps or different features at the same location. 
+3. The acquistion time of source data for composited imagery, google satellite imagery, and ESRI World imagery may be differnt, leading to different boundaries of retrogressive thaw slumps or different features at the same location. 
 
 ### Contact
 This system in under the Phase 1 of development, please report any bugs.
