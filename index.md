@@ -7,7 +7,12 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 
 <figure>
 <img src="figs/canada_slump.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 1 Some ground photos of retrogressive thaw slumps, as shown in Huang et al. 2022 (https://www.mdpi.com/2072-4292/14/12/2747)</b></figcaption>
+<figcaption align = "center"><b>Fig. 1a Some ground photos of retrogressive thaw slumps, as shown in Huang et al. 2022 (https://www.mdpi.com/2072-4292/14/12/2747)</b></figcaption>
+</figure>
+
+<figure>
+<img src="figs/web-system_slump_examples_trim.jpg" alt="Trulli" style="width:100%">
+<figcaption align = "center"><b>Fig. 1b Screenshots of retrogressive thaw slumps from online satellite imagery. These do not correspond to that in Fig. 1a </b></figcaption>
 </figure>
 
 ### Mapping results derived from ArcticDEM using deep learning
@@ -28,7 +33,7 @@ We developed a crowd-sourcing system (the following figure) and would like to in
 </figure>
 
 
-Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels) to a server. During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528 (3176x3) inputs from all users.
+Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig. 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels) to a server. During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528 (3176x3) inputs from all users.
 
 
 ### How to contribute (A [demo](https://youtu.be/ly7QRXTiBaQ) on Youtube)
