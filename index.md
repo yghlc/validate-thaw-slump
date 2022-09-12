@@ -1,7 +1,8 @@
 ## Validate deep-learning-based mapping results of retrogressive thaw slumps 
 
 ### Introduction
-This is a crowd-sourcing system for validating/identifying retrogressive thaw slumps from ArcticDEM-derived data and online maps (Google satellite imagery and ESRI World imagery).  The system is maintained by [Lingcao Huang](https://cires.colorado.edu/visiting-fellow/lingcao-huang).  We would like to invite some people to validate/identify retrogressive thaw slumps using this system.
+We would like to invite some people to validate retrogressive thaw slumps identified by deep learning techniques from over 200 TB of ArcticDEM. We developed a crowd-sourcing system for the validation.
+The system integrates ArcticDEM-derived data, online maps (Google satellite imagery and ESRI World imagery), and a form into one single window and is maintained by [Lingcao Huang](https://cires.colorado.edu/visiting-fellow/lingcao-huang). 
 
 Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causing concerns because it changes local environment and affects northern communities, ecosystems, and global ecological processes such as carbon feedback. Due to climate warming, the number and affected areas of RTSs have increased significantly in past decades as documented by many local studies but their spatial distribution and evolution are still unknown in the entire permafrost region, which impedes the understanding and prediction of permafrost thawing. RTSs are in remote and harsh environments and are small as well as similar to their surroundings on remote sensing imagery, posting a challenge to map them either in the field or from satellite imagery.
 
