@@ -41,7 +41,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 1.	Open [LabelEarth](http://labelearth.colorado.edu) then follow the instruction to log in. We suggest using a computer with a large screen for this task.
 2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. In Panel (c), users can also hide the composted imagery by clicking the checkbox, then check the ESRI World imagery in the background. After checking all online maps, users can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it but it’s ok if you leave it as it is.
 3.	In panel (d), you can choose the possibility from Yes, High, Medium, Low, and No for the original bounding box. If you are sure that it is an RTS or not, then choose Yes or No, respectively. If there is an ambiguity, you can choose a possibility from High, Medium, and Low. You don’t need to assign possibilities to the newly added polygons/rectangles because these are already considered as RTSs by you. We will consider further validation of them in the future but not in this round. 
-4.	You can input comments in the note (Panel d) if you have some thoughts or observe something interesting for this bounding box or location. After all set, click “Submit and Next”, the system will save your input to the server on the campus at University of Colorado Boulder and show you the next bounding box for validation.
+4.	You can input comments in the note (Panel d) if you have some thoughts or observe something interesting for this bounding box or location. After all set, click “Submit and Next”, the system will save your input to the server on the campus of University of Colorado Boulder and show you the next bounding box for validation.
 5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
 6.	Close the window if you want to stop, login to [LabelEarth](http://labelearth.colorado.edu) again if you want to validate more. You can validate a few or many as you want.
 
@@ -59,7 +59,7 @@ Contact for any bugs, comments, suggestions, and questions: Lingcao Huang (lingc
 ### Q & A
 - Could you share your data?
 
-_We are happy to share the data we derived from ArcticDEM. The intermediate data include polygons of elevation reduction, lines of narrow-steep slopes, composited imagery have a size of over 6 TB and can be used for other research. We are looking for a public domain to host this dataset. After this round of validation, we also happy to share the bounding boxes of retregrossive thaw slumps._
+_We are happy to share the data we derived from ArcticDEM. The intermediate data include polygons of elevation reduction, lines of narrow-steep slopes, composited imagery and have a size of over 6 TB. The dataset can be used for other research. We are looking for a public domain to host this dataset. After this round of validation, we are also happy to share the bounding boxes of retrogressive thaw slumps._
 
 - What's the technical details of the algorithm for the data processing?
 
