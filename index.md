@@ -1,7 +1,7 @@
 ## Validate deep-learning-based mapping results of retrogressive thaw slumps 
 
 ### Introduction
-We would like to invite people to validate retrogressive thaw slumps identified by deep learning techniques from over 200 TB of ArcticDEM. We developed a crowd-sourcing system for the validation.
+We would like to invite people to validate retrogressive thaw slumps identified by deep learning techniques from over 200 TB of ArcticDEM. We developed a crowdsourcing system for the validation.
 The system integrates ArcticDEM-derived data, online maps (Google satellite imagery and ESRI World imagery), and a form into one single window and is maintained by [Lingcao Huang](https://cires.colorado.edu/visiting-fellow/lingcao-huang). 
 
 Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causing concerns because it changes local environment and affects northern communities, ecosystems, and global ecological processes such as carbon feedback. Due to climate warming, the number and affected areas of RTSs have increased significantly in past decades as documented by many local studies but their spatial distribution and evolution are still unknown in the entire permafrost region, which impedes the understanding and prediction of permafrost thawing. RTSs are in remote and harsh environments and are small as well as similar to their surroundings on remote sensing imagery, posting a challenge to map them either in the field or from satellite imagery.
@@ -25,12 +25,12 @@ We utilized an open-access, high-resolution (2 m), and multi-temporal digital su
 <figcaption align = "center"><b>Fig. 2 Preliminary mapping results (red rectangles) of retrogressive thaw slumps in the pan-Arctic. The background is composited imagery showing hill-shade and steep-narrow slopes with a spatial resolution of two meters. A and B are two zoom-in examples. The lines in different colors represent steep-narrow slopes in different years.</b></figcaption>
 </figure>
 
-### Crowd-sourcing system
-We developed a crowd-sourcing system (the following figure) and would like to invite volunteers to validate the results.
+### Crowdsourcing system
+We developed a crowdsourcing system (the following figure) and would like to invite volunteers to validate the results.
 
 <figure>
 <img src="figs/web_system_fig_trim.jpg" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 3 The crowd-sourcing system integrates google satellite imagery (a), ESRI World Imagery Wayback (b), composited imagery derived from ArcticDEM (c), and a form (d) into a single window. In panel (c), users can add, edit, or remove lines, points, polygons, and rectangles using tools on the left, allowing users to add/edit/remove the bounding box of an RTS if it is a false negative/inaccurate result/false positive. Users can also hide the composited imagery by using the checkbox on the upper right. In panel (d), users can input the possibility (Yes, high, medium, low, and No) of an RTS and also comments. Users can use mouse (middle scroll) to zoom in/out in panel (c). </b></figcaption>
+<figcaption align = "center"><b>Fig. 3 The crowdsourcing system integrates google satellite imagery (a), ESRI World Imagery Wayback (b), composited imagery derived from ArcticDEM (c), and a form (d) into a single window. In panel (c), users can add, edit, or remove lines, points, polygons, and rectangles using tools on the left, allowing users to add/edit/remove the bounding box of an RTS if it is a false negative/inaccurate result/false positive. Users can also hide the composited imagery by using the checkbox on the upper right. In panel (d), users can input the possibility (Yes, high, medium, low, and No) of an RTS and also comments. Users can use mouse (middle scroll) to zoom in/out in panel (c). </b></figcaption>
 </figure>
 
 
@@ -39,7 +39,7 @@ Currently, our automated method identified 3176 potential RTSs in the pan-Arctic
 
 ### How to contribute (A [demo](https://youtu.be/ly7QRXTiBaQ) on Youtube)
 1.	Open [LabelEarth](http://labelearth.colorado.edu) then follow the instruction to log in. We suggest using a computer with a large screen for this task.
-2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. In Panel (c), users can also hide the composted imagery by clicking the checkbox, then check the ESRI World imagery in the background. After checking all online maps, users can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it but it’s ok if you leave it as it is.
+2.	After login, you can start to validate/identify RTSs one by one. You can check google satellite imagery and ESRI World imagery Wayback in panel (a) and (b),  zoom in/out if necessary. In Panel (c), users can also hide the composted imagery by clicking the checkbox, then check the ESRI World imagery in the background. After checking all online maps, users can decide if the bounding box in Panel (c) is true or false positive. In panel (c), if you spot some RTSs without bounding boxes, please add polygons or rectangles for them. If the original bounding boxes is false positive, you can remove/edit it, but it’s ok if you leave it as it is.
 3.	In panel (d), you can choose the possibility from Yes, High, Medium, Low, and No for the original bounding box. If you are sure that it is an RTS or not, then choose Yes or No, respectively. If there is an ambiguity, you can choose a possibility from High, Medium, and Low. You don’t need to assign possibilities to the newly added polygons/rectangles because these are already considered as RTSs by you. We will consider further validation of them in the future but not in this round. 
 4.	You can input comments in the note (Panel d) if you have some thoughts or observe something interesting for this bounding box or location. After all set, click “Submit and Next”, the system will save your input to the server on the campus of University of Colorado Boulder and show you the next bounding box for validation.
 5.	If you want to revise the previous input, you can click “previous” and retrieve your input from the server, then modify it and click “Submit and Next” again.
