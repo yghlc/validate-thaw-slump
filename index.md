@@ -8,7 +8,7 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 
 <figure>
 <img src="figs/canada_slump.png" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 1a Ground photos of some retrogressive thaw slumps, as shown in <a href="https://www.mdpi.com/2072-4292/14/12/2747">Huang et al. 2022</a></b></figcaption>
+<figcaption align = "center"><b>Fig. 1a Ground photos of retrogressive thaw slumps, as shown in <a href="https://www.mdpi.com/2072-4292/14/12/2747">Huang et al. 2022</a></b></figcaption>
 </figure>
 
 <figure>
@@ -16,13 +16,13 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 <figcaption align = "center"><b>Fig. 1b Screenshots of retrogressive thaw slumps from online satellite imagery. These do not correspond to that in Fig. 1a </b></figcaption>
 </figure>
 
-### Mapping results derived from ArcticDEM using deep learning
+### Mapping results derived from ArcticDEM using deep learning and manual feature engineering
 We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can serve as a basic for future mapping and monitoring. We have obtained a preliminary mapping result after processing over 200 TB of ArcticDEM as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. **Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration.** Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
 
 
 <figure>
 <img src="figs/thawslump_ArcticDEM_overview_2examples_trim.jpg" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 2 Preliminary mapping results (red rectangles) of retrogressive thaw slumps in the pan-Arctic. The background is composited imagery showing hill-shade and abrupt slope changes with a spatial resolution of two meters. A and B are two zoom-in examples. The lines in different colors represent abrupt slope changes in different years.</b></figcaption>
+<figcaption align = "center"><b>Fig. 2 Preliminary mapping results (red rectangles) of retrogressive thaw slumps in the pan-Arctic. The background is composited imagery showing hill-shade and steep-narrow slopes with a spatial resolution of two meters. A and B are two zoom-in examples. The lines in different colors represent steep-narrow slopes in different years.</b></figcaption>
 </figure>
 
 ### Crowd-sourcing system
@@ -30,7 +30,7 @@ We developed a crowd-sourcing system (the following figure) and would like to in
 
 <figure>
 <img src="figs/web_system_fig_trim.jpg" alt="Trulli" style="width:100%">
-<figcaption align = "center"><b>Fig. 3 The crowd-sourcing system integrates google satellite imagery (a), ESRI World Imagery Wayback (b), composited imagery derived from ArcticDEM (c), and a form (d) into a single window. In panel (c), users can add, edit, or remove lines, points, polygons, and rectangles using tools on the left, allowing users to add/edit/remove the bounding box of an RTS if it is false negative/inaccurate/false positive. Users can also hide the composited imagery by using the checkbox on the upper right. In panel (d), users can input the possibility (Yes, high, medium, low, and No) of an RTS and also comments. Users can use mouse (middle scroll) to zoom in/out in panel (c). </b></figcaption>
+<figcaption align = "center"><b>Fig. 3 The crowd-sourcing system integrates google satellite imagery (a), ESRI World Imagery Wayback (b), composited imagery derived from ArcticDEM (c), and a form (d) into a single window. In panel (c), users can add, edit, or remove lines, points, polygons, and rectangles using tools on the left, allowing users to add/edit/remove the bounding box of an RTS if it is a false negative/inaccurate result/false positive. Users can also hide the composited imagery by using the checkbox on the upper right. In panel (d), users can input the possibility (Yes, high, medium, low, and No) of an RTS and also comments. Users can use mouse (middle scroll) to zoom in/out in panel (c). </b></figcaption>
 </figure>
 
 
