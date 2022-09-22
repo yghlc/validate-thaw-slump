@@ -17,7 +17,7 @@ Retrogressive thaw slump (RTS) is a type of permafrost disturbance and is causin
 </figure>
 
 ### Mapping results derived from ArcticDEM using deep learning and manual feature engineering
-We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can serve as a basic for future mapping and monitoring. We have obtained a preliminary mapping result after processing over 200 TB of ArcticDEM as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. **Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration.** Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
+We utilized an open-access, high-resolution (2 m), and multi-temporal digital surface model (ArcticDEM) and an automated algorithm built on deep learning techniques and manual feature engineering, aiming to identify RTSs in the Arctic as many as possible and compile a dataset that can serve as a basic for future mapping and monitoring. We have obtained a preliminary mapping result after processing over 200 TB of ArcticDEM as shown in the following figure. However, one nature of the automated algorithm is that its results contain false positive and false negative. **Therefore, the results must be validated carefully before releasing them to scientific communities for further analysis and model calibration.** Pan-Arctic is a huge region, and this kind of validation cannot be completed by an individual or a small team.
 
 
 <figure>
@@ -34,7 +34,7 @@ We developed a crowdsourcing system (the following figure) and would like to inv
 </figure>
 
 
-Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig. 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels) to a server. During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528 (3176x3) inputs from all users.
+Currently, our automated method identified 3176 potential RTSs in the pan-Arctic (Fig. 2), and each with a bounding box. We uploaded these bounding boxes and the corresponding composited imagery (around 2000 by 2000 pixels) to a server. During validation, each bounding box will be validated up to three times by different users. We expect these 3176 bounding boxes contain false positive and miss some RTSs (false negative). If you see RTSs in the surrounding region but don’t have the corresponding bounding boxes, please add polygons or rectangles for them. For this round of validation, we need up to 9528 (3176x3) inputs from all users. We believe that the number of RTSs in the pan-Arctic is larger than 3176 but the validation is necessary for the improvement of future mapping efforts. 
 
 
 ### How to contribute (A [demo](https://youtu.be/ly7QRXTiBaQ) on Youtube)
