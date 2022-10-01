@@ -60,7 +60,7 @@ Contact for any bugs, comments, suggestions, and questions: Lingcao Huang (lingc
 ### Q & A
 - Could you share your data?
 
-_We are happy to share the data we derived from ArcticDEM. The intermediate data include polygons of elevation reduction, lines of narrow-steep slopes, composited imagery and have a size of over 6 TB. The dataset can be used for other research. We are looking for a public domain to host this dataset. After this round of validation, we are also happy to share the bounding boxes of retrogressive thaw slumps._
+_We are happy to share the data we derived from ArcticDEM. The intermediate data include pixel-wise elevation differences, polygons of elevation reduction, lines of narrow-steep slopes, composited imagery and have a size of around 18 TB. The dataset can be used for other research. We are looking for a public domain to host this dataset. After this round of validation, we are also happy to share the bounding boxes of retrogressive thaw slumps._
 
 - What's the technical details of the algorithm for the data processing?
 
