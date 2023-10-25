@@ -65,7 +65,7 @@ _We are happy to share the data we derived from ArcticDEM. The intermediate data
 - What's the technical details of the algorithm for the data processing?
 
 
-_We are writing a technical paper to summarize the technical details, stay tune._ 
+_We have published a technical [paper](https://doi.org/10.1016/j.isprsjprs.2023.10.008) to summarize the technical details, please refer to https://doi.org/10.1016/j.isprsjprs.2023.10.008._ 
 
 
 
